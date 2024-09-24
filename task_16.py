@@ -8,9 +8,15 @@ X = int(input('Введите число X: '))
 
 
 count = 0
-for X in A:
-    if X in A:
-        count = 1
+for element in A:
+    if element == X:
+        count += 1
+        
+    
         
 print(f'Число {X} встречается в массиве {count} раз')
+
+    
+
+
 
